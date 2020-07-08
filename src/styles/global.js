@@ -7,7 +7,9 @@ export default createGlobalStyle`
 	padding: 0px;
 	box-sizing: border-box;
 	outline: 0px;
+	font-family: "Gilroy-Regular";
 }
+
 
 .fix-body{
 	overflow: hidden;
@@ -62,65 +64,10 @@ li{
 	list-style: none;
 }
 
-.container-form{
-	position: relative;
-	margin-bottom: 25px;
-	&.dif{
-		margin-bottom: 80px;	
-	}
-	&:last-child{
-		margin-bottom: 25px;
-	}
-	label{
-		font-family: ${(props) => props.theme.fonts.inter};
-		font-style: normal;
-		font-weight: normal;
-		font-size: 13px;
-		line-height: 160%;	
-		color: ${(props) => props.theme.colors.preto1};
-		position: absolute;
-		top: -12px;
-		padding: 0px 10px;
-		left: 19px;
-		background-color: #fff;
-		z-index: 20;
-	}
-
-	input,textarea{
-		border: 1px solid rgba(89, 92, 118, 0.3) ;
-		box-sizing: border-box;
-		height: 46px;
-		width: 100%;
-		border-radius: 4px;	
-		padding-left: 19px;
-
-		font-family: ${(props) => props.theme.fonts.inter};
-		font-style: normal;
-		font-weight: normal;
-		font-size: 13px;
-		line-height: 160%;
-		color: ${(props) => props.theme.colors.preto1};
-	}
-
-	textarea{
-		height: 151px;
-		padding-top: 10px;
-	}
-
-	span{
-		font-family: ${(props) => props.theme.fonts.inter};
-		color: ${(props) => props.theme.colors.preto2};
-		font-style: normal;
-		font-weight: normal;
-		font-size: 14px;	
-	}
-}
-
 body{
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
-	font-family: Montserrat;
-	background-color: ${(props) => props.theme.colors.color01}
+	/* font-family: Montserrat; */
 }
 
 

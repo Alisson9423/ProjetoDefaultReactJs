@@ -1,28 +1,31 @@
 export default {
-	title: "",
+	title: {
+		h1: "52px",
+		h2: "32px",
+		h3: "28px",
+		h4: "18px",
+		h5: "16px",
+		h6: "14px",
+	},
 
 	colors: {
-		preto1: "#132847",
-		preto2: "#595C76",
-		preto2Opacity: "rgba(89, 92, 118, 0.3)",
-		color01: "#fff",
-		color02: "#FBFBFB",
-		color03: "#DCDCDC",
-		color04: "#404040",
-		color05: "#000",
-		color06: "#FAFF00",
-		verde1: "#409A3C",
-		verde2: "#8AC537",
-		gray1: "#333333",
-		gray2: "#4F4F4F",
-		gray3: "#828282",
-		gray4: "#BDBDBD",
-		gray5: "#FEFEFE",
-		gray6: '#F2F2F2',
-		graybg: '#F8F9FA',
-		red: "#EB5757",
-		blue1: "#2F80ED",
-		laranjinha: "#ffe1c666",
+		Dourado01: "#D8976F",
+		Dourado02: "#E0C39F",
+		Dourado03: "#FFF2E9",
+		
+		Azul01: "#162A3A",
+		Azul02: "#2C4F71",
+		Azul03: "#516E8A",
+
+		blue04: "#EFF5FA",
+
+		Cinza01: "#5A5A71",
+		Cinza02: "#75758D",
+		Cinza03: "#B5B5C6",
+
+		BG01: "#F6F6F6",
+
+		azuldex: "#7DA5BC"
 	},
 
 	fonts: {
